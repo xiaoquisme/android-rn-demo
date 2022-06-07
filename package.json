@@ -1,0 +1,13 @@
+{
+  "name": "Example",
+  "version": "0.0.5",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.35.0"
+  }
+}
