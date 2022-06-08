@@ -1,7 +1,5 @@
-FROM qulianqing/android-box-new:1.0
-RUN ln -s /usr/local/nvm/versions/node/v8.17.0/bin/node /usr/local/bin/node
-RUN ln -s /usr/local/nvm/versions/node/v8.17.0/bin/npm /usr/local/bin/npm
+FROM android-box:1.0
 
 COPY . .
 
-ENTRYPOINT ["bash", "-e", "build.sh"]
+CMD . $HOME/.bashrc && npm install && cd android &&./gradlew clean assembleRelease
