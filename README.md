@@ -1,8 +1,6 @@
 ## Installation
 `npm install` 
 
-It will download all dependencies including the `react-native-scanner` module on the local.
-
 ## Run
 `npm start`
 
