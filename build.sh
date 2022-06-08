@@ -2,6 +2,8 @@
 
 npm install
 
+cd android && ./gradlew clean assembleRelease
+
 
 
 

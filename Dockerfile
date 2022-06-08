@@ -1,4 +1,4 @@
-FROM android-box:1.0
+FROM android-box-new:1.0
 
 COPY . .
 
